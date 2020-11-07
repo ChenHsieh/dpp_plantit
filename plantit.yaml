@@ -1,0 +1,8 @@
+name: Segmentation - Deep Plant Phenomics 
+author: CH
+image: docker://bendjamin101001/dpp:v1
+public: True
+clone: True
+from: directory
+to: directory
+commands: python3 semantic_segmentation_tool.py -p "$INPUT"
